@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-   http_basic_authenticate_with name: "jai", password: "shanker", except: [:index, :show]
+#   http_basic_authenticate_with name: "jai", password: "shanker", except: [:index, :show]
    
   def new
     @post = Post.new()
